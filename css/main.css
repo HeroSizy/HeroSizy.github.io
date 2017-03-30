@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: 'Raleway', sans-serif;
+	height: 100%;
+	width: 100%;
+	background: url(../images/background) no-repeat center center fixed;
+	background-size: cover;
+}
+
+body {
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	right: 50%;
+	transform: translate(-7.8vh, 0);
+}
+
+img {
+	width: 15vh;
+	height: 15vh;
+	border-radius: 50%;
+	border-color: rgba(255, 255, 255, 0.3);
+	border-width: 5px;
+	border-style: solid;
+	margin-bottom: 2.5vh;
+}
+
+#sizy, #tag {
+	color: white;
+	font-size: 3.5vh;
+	width: 10vh;
+	transform: translate(2.6vh, 0);
+}
+
+#sizy{
+	padding-bottom: 7px;
+	border-bottom: 1px rgba(255,255,255,0.7) solid;
+}
+
+#tag{
+	color: rgba(255,255,255,0.66);
+}
