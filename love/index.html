@@ -24,7 +24,7 @@
     </style>
 </head>
 <body>
-<audio autoplay>
+<audio id="bgm">
     <source src="./zyddn.m4a" type="audio/mp4"/>
 </audio>
 <div id="main">
@@ -124,6 +124,7 @@
         var hold = 1;
 
         canvas.click(function (e) {
+            document.getElementById("bgm").play();
             var offset = canvas.offset(), x, y;
             x = e.pageX - offset.left;
             y = e.pageY - offset.top;
